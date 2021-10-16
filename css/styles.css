@@ -1,0 +1,127 @@
+:root {
+  font-size: 16px;
+  font-family: 'SuisseIntl-Book';
+}
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  color: #black;
+  max-width: 1440px;
+  font-size: calc(1em+1vw);
+}
+
+/*//////  h e a d e r  //////*/
+
+.header-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header{
+    height:75vh;
+}
+
+/*//////  t y p e  s e t t i n g  //////*/
+
+h1 {
+  font-size: 500%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.25vw;
+  outline: none !important;
+  line-height: 1;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  text-align: right;
+  /*text-transform: uppercase;*/
+}
+
+h2 {
+  font-size: 125%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 2vw;
+  outline: none !important;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+
+h6 {
+  font-size: 60%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+  outline: none !important;
+  line-height: 1;
+  margin-top: 1;
+  margin-bottom: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 100%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+  outline: none !important;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: left;
+  max-width: 600px;
+}
+
+
+/*//////  n a v i g a t i o n  //////*/
+
+.one {
+  margin-right: 2rem;
+}
+
+.two{
+  margin-right: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: #ccfef7;
+}
+
+nav {
+  font-size: 100%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+
+  line-height: 1.5;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+nav a:first-of-type {
+  flex-grow: 1;
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: grid;
+  }
+
+  nav a {
+    padding-left: 0;
+  }
+}
