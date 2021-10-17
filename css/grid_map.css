@@ -92,7 +92,7 @@ img {
 
 .grid__item{
   transition: transform 0.8s ease;
-  mix-blend-mode: none;
+  mix-blend-mode: normal;
   color: black;
 }
 
