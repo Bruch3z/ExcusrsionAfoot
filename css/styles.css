@@ -6,9 +6,8 @@
 body {
   margin: 0 auto;
   padding: 2rem;
-  color: #black;
+  color: black;
   max-width: 1440px;
-  font-size: calc(1em+1vw);
 }
 
 /*//////  h e a d e r  //////*/
