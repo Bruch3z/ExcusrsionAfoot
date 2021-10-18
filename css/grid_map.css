@@ -97,7 +97,7 @@ img {
 /*//////  h o v e r  o n  g r i d  e l e m e n t  //////*/
 
 .grid__item{
-  transition: transform 0.8s ease;
+  transition: transform 0.2s ease;
   mix-blend-mode: normal;
   color: black;
 }
@@ -106,6 +106,6 @@ img {
   mix-blend-mode: normal;
   color: white;
   box-shadow:  0 3px 10px #ccfef7;
-  transform: scale(2.5);
+  transform: scale(1.5);
   z-index: 900;
 }
