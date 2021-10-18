@@ -10,6 +10,13 @@ body {
   max-width: 1440px;
 }
 
+
+
+::selection {
+  background-color: yellow;
+  color: black;
+}
+
 /*//////  h e a d e r  //////*/
 
 .header-container {
@@ -95,7 +102,7 @@ a {
 
 a:hover {
   color: black;
-  background-color: #ccfef7;
+  background-color: yellow;
 }
 
 nav {

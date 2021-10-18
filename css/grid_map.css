@@ -105,7 +105,7 @@ img {
 .grid__item:hover{
   mix-blend-mode: normal;
   color: white;
-  box-shadow:  0 3px 10px #ccfef7;
+  box-shadow:  0 3px 10px yellow;
   transform: scale(1.5);
   z-index: 900;
 }
