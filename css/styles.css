@@ -122,7 +122,15 @@ nav a:first-of-type {
   flex-grow: 1;
 }
 
+
+/*//////  m e d i a  q u e r y  //////*/
+
 @media (max-width: 500px) {
+
+  body {
+    padding: .5rem;
+  }
+
   nav {
     display: grid;
   }
