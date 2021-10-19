@@ -129,6 +129,7 @@ nav a:first-of-type {
 
   body {
     padding: .5rem;
+    max-width: 100vw;
   }
 
   nav {
