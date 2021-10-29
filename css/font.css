@@ -1,19 +1,8 @@
-/**
- * @license
- *
- * Font Family: Gambarino
- * Designed by: Théo Guillard
- * URL: https://www.fontshare.com/fonts/gambarino
- * © 2021 Indian Type Foundry
- *
- * Font Style:
- * Gambarino Regular
- *
-*/
+
 @font-face {
-  font-family: 'SuisseIntl-Book';
-  src: url('../fonts/SuisseIntl-Book-WebXL.woff') format('woff'),
-  url('../fonts/SuisseIntl-Book-WebXL.woff2') format('woff2');
+  font-family: 'Px437_IBM_PS2';
+  src: url('../fonts/Px437_IBM_PS2thin1.woff') format('woff'),
+  url('../fonts/Px437_IBM_PS2thin1.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;

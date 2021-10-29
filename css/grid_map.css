@@ -7,8 +7,12 @@ img {
 
 .grid {
   display: grid;
-  border: 1px solid black;
+  outline: 0.5px solid #ffffff;
+  outline-offset: 5px;
   background-color: white;
+  max-width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*//////  m a p s  //////*/
@@ -99,13 +103,11 @@ img {
 .grid__item{
   transition: transform 0.2s ease;
   mix-blend-mode: normal;
-  color: black;
 }
 
 .grid__item:hover{
   mix-blend-mode: normal;
-  color: white;
-  /*box-shadow:  0 3px 10px yellow;*/
+  border: 1px solid #00ad51;
   transform: scale(1.5);
   z-index: 900;
 }
@@ -117,18 +119,20 @@ img {
   opacity: 1;
 }
 
+.middle:hover {
+  background-color: #00ad51;
+}
+
 
 .middle {
   transition: .2s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: -1px;
+  right: -1px;
   text-align: center;
-  height: 45px;
-  width: 32px;
+  width: 22px;
+  background-color: #fdfbeb;
 }
 
 .text {
@@ -137,10 +141,7 @@ img {
   font-weight: 100;
   letter-spacing: 0.1vw;
   outline: none !important;
-  line-height: 1.5;
-  color: rgba(23, 172, 16);
-  background-color: white;
+  line-height: 1;
   border: 1px solid rgba(23, 172, 16);
   padding: 0.25rem;
-
 }
