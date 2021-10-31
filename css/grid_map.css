@@ -101,13 +101,13 @@ img {
 /*//////  h o v e r  o n  g r i d  e l e m e n t  //////*/
 
 .grid__item{
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
   mix-blend-mode: normal;
 }
 
 .grid__item:hover{
   mix-blend-mode: normal;
-  border: 1px solid #00ad51;
+  border: 0.5px solid black;
   transform: scale(1.5);
   z-index: 900;
 }
@@ -119,29 +119,24 @@ img {
   opacity: 1;
 }
 
-.middle:hover {
-  background-color: #00ad51;
-}
-
 
 .middle {
   transition: .2s ease;
-  opacity: 0;
   position: absolute;
-  top: -1px;
-  right: -1px;
-  text-align: center;
-  width: 22px;
-  background-color: #fdfbeb;
+  bottom: -30px;
+  text-align: left;
+  background-color: black;
+  opacity: 0;
+  width:100%;
+  margin:-1px;
+  border: 1px solid black;
 }
 
 .text {
-  font-size: 75%;
-  font-family: 'SuisseIntl-Book';
+  font-size: 55%;
+  font-family: 'Px437_IBM_PS2';
   font-weight: 100;
-  letter-spacing: 0.1vw;
+  color: white;
   outline: none !important;
   line-height: 1;
-  border: 1px solid rgba(23, 172, 16);
-  padding: 0.25rem;
 }
