@@ -107,9 +107,10 @@ img {
 
 .grid__item:hover{
   mix-blend-mode: normal;
-  border: 0.5px solid black;
   transform: scale(1.5);
   z-index: 900;
+  background-color: white;
+  box-shadow: 5px 15px 40px #923fff;
 }
 
 
@@ -123,7 +124,7 @@ img {
 .middle {
   transition: .2s ease;
   position: absolute;
-  bottom: -30px;
+  bottom: -25px;
   text-align: left;
   background-color: black;
   opacity: 0;
