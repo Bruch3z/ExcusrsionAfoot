@@ -147,13 +147,7 @@ img {
 
 /*//////  m o b i l e  //////*/
 
-@media (hover: hover){
-
-  .grid__item{
-    transition: transform 0.3s ease;
-    mix-blend-mode: normal;
-  }
-
+@media (hover: hover) {
   .grid__item:hover{
     mix-blend-mode: normal;
     transform: scale(1.5);
@@ -162,4 +156,10 @@ img {
     box-shadow: 5px 15px 40px #923fff;
   }
 
+
+  /*//////  h o v e r  t e x t  //////*/
+
+  .grid__item:hover .middle{
+    opacity: 1;
+  }
 }
