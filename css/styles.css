@@ -9,7 +9,7 @@ body {
   padding: 0.5rem;
   color: white;
   background-color: black;
-  max-width: 1440px;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -148,14 +148,4 @@ hr {
   height: 0.5px;
   background-color: #fff;
   border: none;
-}
-
-/*//////  m e d i a  q u e r y  //////*/
-
-@media only screen and (max-width: 600px){
-
-body {
-  margin: 0.25rem;
-  overflow-x: hidden;
-}
 }
