@@ -147,7 +147,7 @@ img {
 
 /*//////  m o b i l e  //////*/
 
-@media (hover: hover) {
+@media (hover: none) {
   .grid__item:hover{
     mix-blend-mode: normal;
     transform: scale(1.5);
