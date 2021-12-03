@@ -128,7 +128,7 @@ nav a:first-of-type {
 
 /*//////  m e d i a  q u e r y  //////*/
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
   body {
     padding: .5rem;

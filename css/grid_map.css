@@ -105,20 +105,7 @@ img {
   mix-blend-mode: normal;
 }
 
-.grid__item:hover{
-  mix-blend-mode: normal;
-  transform: scale(1.5);
-  z-index: 900;
-  background-color: white;
-  box-shadow: 5px 15px 40px #923fff;
-}
 
-
-/*//////  h o v e r  t e x t  //////*/
-
-.grid__item:hover .middle{
-  opacity: 1;
-}
 
 
 .middle {
@@ -149,21 +136,43 @@ img {
 
 
 
-@media only screen and (max-width: 600px){
-
+@media (hover: hover) {
   .grid__item:hover{
-    mix-blend-mode: multiply;
-    transform: scale(1);
-    z-index: none;
-    background-color: none;
-    box-shadow: none;
+    mix-blend-mode: normal;
+    transform: scale(1.5);
+    z-index: 900;
+    background-color: white;
+    box-shadow: 5px 15px 40px #923fff;
   }
 
 
   /*//////  h o v e r  t e x t  //////*/
 
   .grid__item:hover .middle{
-    opacity: 0;
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .grid__item:hover{
+    mix-blend-mode: normal;
+    transform: scale(0);
+    z-index: 900;
+    background-color: white;
+    box-shadow: 5px 15px 40px #923fff;
   }
 
+
+  /*//////  h o v e r  t e x t  //////*/
+
+  .grid__item:hover .middle{
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .middle {
+    width:10%;
+  }
 }
