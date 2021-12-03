@@ -124,12 +124,12 @@ img {
 .middle {
   transition: .2s ease;
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   text-align: left;
   background-color: black;
   opacity: 0;
   width:100%;
-  margin:-1px;
+  margin: -1px;
   border: 1px solid black;
 }
 
@@ -140,4 +140,26 @@ img {
   color: white;
   outline: none !important;
   line-height: 1;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+
+/*//////  m o b i l e  //////*/
+
+@media (hover: hover){
+
+  .grid__item{
+    transition: transform 0.3s ease;
+    mix-blend-mode: normal;
+  }
+
+  .grid__item:hover{
+    mix-blend-mode: normal;
+    transform: scale(1.5);
+    z-index: 900;
+    background-color: white;
+    box-shadow: 5px 15px 40px #923fff;
+  }
+
 }

@@ -3,6 +3,7 @@
   font-family: 'Px437_IBM_PS2';
 }
 
+
 body {
   margin: 1rem;
   padding: 0.5rem;
@@ -141,4 +142,12 @@ nav a:first-of-type {
   nav a {
     padding-left: 0;
   }
+}
+
+
+/*//////  m e d i a  q u e r y  //////*/
+hr {
+  height: 0.5px;
+  background-color: #fff;
+  border: none;
 }
