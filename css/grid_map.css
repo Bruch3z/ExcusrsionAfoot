@@ -147,19 +147,23 @@ img {
 
 /*//////  m o b i l e  //////*/
 
-@media (hover: none) {
+
+
+@media only screen and (max-width: 600px){
+
   .grid__item:hover{
-    mix-blend-mode: normal;
-    transform: scale(1.5);
-    z-index: 900;
-    background-color: white;
-    box-shadow: 5px 15px 40px #923fff;
+    mix-blend-mode: multiply;
+    transform: scale(1);
+    z-index: none;
+    background-color: none;
+    box-shadow: none;
   }
 
 
   /*//////  h o v e r  t e x t  //////*/
 
   .grid__item:hover .middle{
-    opacity: 1;
+    opacity: 0;
   }
+
 }
