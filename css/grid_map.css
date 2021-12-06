@@ -156,7 +156,7 @@ img {
 @media (hover: none) {
   .grid__item:hover{
     mix-blend-mode: normal;
-    transform: scale(0);
+    transform: scale(1.5);
     z-index: 900;
     background-color: white;
     box-shadow: 5px 15px 40px #923fff;
