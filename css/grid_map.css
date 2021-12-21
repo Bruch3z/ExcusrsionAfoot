@@ -134,6 +134,11 @@ img {
   border: 1px solid #000;
 }
 
+hr{
+  border: none;
+  height: 0.5px;
+  background-color: #fff;
+}
 
 /*//////  m o b i l e  //////*/
 
@@ -163,6 +168,7 @@ img {
     z-index: 900;
     background-color: white;
     box-shadow: 5px 15px 40px #923fff;
+    pointer-events: none;
   }
 
 
