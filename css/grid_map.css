@@ -147,7 +147,7 @@ hr{
 @media (hover: hover) {
   .grid__item:hover{
     mix-blend-mode: normal;
-    transform: scale(1.5);
+    transform: scale(1.1);
     z-index: 900;
     background-color: white;
     border: 1px solid #000;
@@ -168,13 +168,4 @@ hr{
     z-index: 900;
     background-color: white;
     box-shadow: 5px 15px 40px #923fff;
-    pointer-events: none;
   }
-
-
-  /*//////  h o v e r  t e x t  //////*/
-
-  .grid__item:hover .middle{
-    opacity: 1;
-  }
-}
