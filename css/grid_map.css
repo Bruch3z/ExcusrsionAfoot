@@ -1,6 +1,7 @@
 img {
   width: 100%;
   display: block;
+  overflow-x: hidden;
 }
 
 /*//////  g r i d  //////*/
@@ -167,6 +168,7 @@ hr{
     transform: scale(1.5);
     z-index: 900;
     background-color: white;
+<<<<<<< HEAD
     box-shadow: 5px 15px 40px #923fff;
   }
 
@@ -177,3 +179,7 @@ hr{
     opacity: 1;
   }
 }*/
+=======
+    box-shadow: 5px 15px 40px red;
+  }
+>>>>>>> b5d1b0de699ad6216f2f6e00abba06dc11d4f05c
