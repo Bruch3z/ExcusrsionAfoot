@@ -1,0 +1,58 @@
+/*//////  c a r d   l a y o u t  //////*/
+.hikes{
+  display: grid;
+  grid-template-columns: repeat(1);
+  grid-auto-rows: 1fr;
+  margin: 0 auto;
+  max-width: 680px;
+}
+
+.hike-card {
+  display: flex;
+  margin-bottom: 3rem;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+  align-items: center;
+}
+
+.hike-map {
+  flex: 1 ;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: white;
+  margin: 1rem;
+}
+
+.hike-map img {
+    height: 300px;
+    max-height: 300px;
+    object-fit:scale-down;
+}
+
+/*//////   c a r d   d e t a i l s   //////*/
+.hike-detail {
+  flex: 1 ;
+  margin: 1rem 1rem 1rem 0;
+  position: relative;
+}
+
+.hike-title {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.hike-sum {
+
+}
+
+.elevation-chart {
+  border: 1px solid black;
+  background-color: white;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+h2 span {
+    padding: 0.15rem 0.35rem 0.15rem 0.35rem;
+    background-color: black;
+}

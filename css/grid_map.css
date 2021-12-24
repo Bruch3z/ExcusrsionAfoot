@@ -9,7 +9,7 @@
   letter-spacing: 0.015rem;
   outline: none !important;
   color: white;
-  opacity: 50%;
+  opacity: 33%;
   text-align:left;
   line-height: 1.2;
   padding-top: 0.1rem;
@@ -33,7 +33,7 @@ img {
   margin-top: 0.40rem;
   margin-left: 0.33rem;
   margin-right: 0.33rem;
-  cursor: cell;
+  cursor: crosshair;
 }
 /*//////  m a p s  //////*/
 

@@ -29,10 +29,45 @@ h1 {
   text-align: center;
   outline: none !important;
   line-height: 1;
-  margin: 0rem;
+  margin: 0;
   text-transform: uppercase;
 }
 
+/*  h i k e  c a r d  */
+h2 {
+  font-size: 115%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 400;
+  text-align: left;
+  outline: none !important;
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 100%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+  outline: none !important;
+  display: inline !important;
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+}
+
+h5 {
+  font-size: 65%;
+  font-family: 'SuisseIntl-Book';
+  font-weight: 100;
+  letter-spacing: 0.05vw;
+  outline: none !important;
+  display: inline !important;
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+}
 
 h6 {
   font-size: 75%;
@@ -58,7 +93,11 @@ p {
   max-width: 600px;
 }
 
-
+hr {
+  border: 0;
+  height: 0.5px;
+  background: black;
+}
 
 /*//////  h e a d e r  //////*/
 
@@ -117,6 +156,10 @@ nav a:first-of-type {
 
   body {
     margin: 0;
+  }
+
+  h2 {
+    font-size: 100%;
   }
 
 }
