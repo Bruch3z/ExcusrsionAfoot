@@ -11,7 +11,7 @@
   display: flex;
   margin-bottom: 3rem;
   border: 1px solid black;
-  background-color: #f0f0f0;
+  background-color: #ececec;
   align-items: center;
 }
 
@@ -36,13 +36,19 @@
 }
 
 .hike-title {
-  margin-top: 0.4rem;
-  margin-bottom: -0.2rem;
+  margin-bottom: 2rem;
+}
+
+.hike-sum {
+  margin-bottom: 2rem;
+  padding-between: 1rem;
 }
 
 .elevation-chart {
   border: 1px solid black;
   background-color: white;
+  padding-top: 0.5rem;
+  width: 100%;
 }
 
 h2 span {
@@ -69,7 +75,6 @@ h2 span {
   }
 
   .hike-title {
-    margin-top: 0.4rem;
     margin-bottom: 0;
   }
 

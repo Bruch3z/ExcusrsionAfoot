@@ -34,7 +34,7 @@ h1 {
 
 /*  h i k e  c a r d  */
 h2 {
-  font-size: 115%;
+  font-size: 125%;
   font-family: 'GapSans';
   font-weight: 400;
   text-align: left;
@@ -57,10 +57,9 @@ h4 {
 }
 
 h5 {
-  font-size: 45%;
+  font-size: 55%;
   font-family: 'GapSans';
-  font-weight: 800;
-  letter-spacing: 0.05vw;
+  font-weight: 400;
   outline: none !important;
   display: inline !important;
   line-height: 1;
@@ -94,8 +93,9 @@ p {
 
 hr {
   border: 0;
-  height: 0.5px;
+  height: 2px;
   background: black;
+  margin-top: 1rem 0 1rem 0;
 }
 
 /*//////  h e a d e r  //////*/
