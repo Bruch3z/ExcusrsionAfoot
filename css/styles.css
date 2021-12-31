@@ -1,12 +1,11 @@
 :root {
   font-size: 16px;
-  font-family: 'SuisseIntl-Book';
+  font-family: 'GapSans';
 }
 
 
 body {
   margin: 1rem;
-  padding: 0.5rem;
   color: black;
   background-color: white;
   max-width: 100%;
@@ -24,8 +23,8 @@ body {
 
 h1 {
   font-size: 150%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 400;
+  font-family: 'GapSans';
+  font-weight: 800;
   text-align: center;
   outline: none !important;
   line-height: 1;
@@ -36,7 +35,7 @@ h1 {
 /*  h i k e  c a r d  */
 h2 {
   font-size: 115%;
-  font-family: 'SuisseIntl-Book';
+  font-family: 'GapSans';
   font-weight: 400;
   text-align: left;
   outline: none !important;
@@ -47,8 +46,8 @@ h2 {
 
 h4 {
   font-size: 100%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 100;
+  font-family: 'GapSans';
+  font-weight: 400;
   letter-spacing: 0.05vw;
   outline: none !important;
   display: inline !important;
@@ -58,9 +57,9 @@ h4 {
 }
 
 h5 {
-  font-size: 65%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 100;
+  font-size: 45%;
+  font-family: 'GapSans';
+  font-weight: 800;
   letter-spacing: 0.05vw;
   outline: none !important;
   display: inline !important;
@@ -71,8 +70,8 @@ h5 {
 
 h6 {
   font-size: 75%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 100;
+  font-family: 'GapSans';
+  font-weight: 400;
   letter-spacing: 0.05vw;
   outline: none !important;
   line-height: 1;
@@ -82,8 +81,8 @@ h6 {
 
 p {
   font-size: 100%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 100;
+  font-family: 'GapSans';
+  font-weight: 400;
   letter-spacing: 0.05vw;
   outline: none !important;
   line-height: 1.5;
@@ -125,8 +124,8 @@ a:hover {
 
 nav {
   font-size: 80%;
-  font-family: 'SuisseIntl-Book';
-  font-weight: 100;
+  font-family: 'GapSans';
+  font-weight: 400;
   letter-spacing: 0.05vw;
   line-height: 1.5;
   position: relative;
@@ -155,7 +154,7 @@ nav a:first-of-type {
 @media only screen and (max-width: 600px) {
 
   body {
-    margin: 0;
+    margin: 0.5rem;
   }
 
   h2 {

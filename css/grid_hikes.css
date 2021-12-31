@@ -37,28 +37,27 @@
 
 .hike-title {
   margin-top: 0.4rem;
-  margin-bottom: 0.5rem;
-  color: white;
+  margin-bottom: -0.2rem;
 }
-
-
 
 .elevation-chart {
   border: 1px solid black;
   background-color: white;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 h2 span {
     padding: 0.15rem 0.35rem 0.15rem 0.35rem;
+    color: white;
     background-color: black;
 }
+
 
 
 @media only screen and (max-width: 600px) {
   .hike-card {
     margin-bottom: 1.5rem;
   }
+
   .hike-map {
     padding: 0.25rem;
     margin: 0.25rem 0.5rem 0.25rem 0.25rem;
@@ -72,7 +71,6 @@ h2 span {
   .hike-title {
     margin-top: 0.4rem;
     margin-bottom: 0;
-    color: white;
   }
 
 }
